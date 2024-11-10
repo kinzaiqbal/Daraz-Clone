@@ -1,0 +1,197 @@
+body{
+    background-color: #f7f3f3af;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.nav1{
+    width: 100%;
+    height: 12px;
+    font-size: 22px;
+    background-color: orangered;
+    color: white;
+}
+.nava{
+    cursor: pointer;
+    margin-right: 60px;
+    color: white;
+}
+.nava:hover{
+    transform: scale(1.2,1);
+}
+
+.navb{
+    cursor: pointer;
+    margin-left: 200px;
+}
+.nav2{
+   cursor: pointer;
+   width: 100%;
+   height: 75px;
+   background-color: rgb(255, 77, 0);
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+#logo{
+    width: 140px;
+}
+.nav2search{
+    cursor: pointer;
+    width: 650px;
+    height: 45px;
+    background-color: #f7f3f3af;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid none;
+    border-radius: 10px;
+}
+#navinput{
+    border-top-left-radius: 12px;
+    border-top-left-radius: 12px;
+    width: 600px;
+    height: 45px;
+    font-size: 20px;
+}
+#login{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+.user{
+    font-size: 20px;
+}
+#signup{
+    font-size: 20px;
+    font-weight: bold;
+}
+/*************************banner********************/
+.banner{
+    width: 90%;
+    height: 600px;
+   /* border: 2px solid black; */
+    margin-left: 5%;
+    margin-top: 1%;
+    display: flex;
+}
+.items{
+    width: 21%;
+    height: 600px;
+    /* border: 2px solid black; */
+    margin-right: 1%;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 30px;
+}
+.banimg{
+    width: 80%;
+    height: 600px;
+    /* border: 2px solid black; */
+    background-image: url("/images/banner2.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.banimg:hover{
+    background-image: url("/images/banner3.jpg");
+}    
+
+li{
+    font-size: 28px;
+}
+.posl{
+    position: relative;
+    top: 280px;
+    left: 10px;
+}
+.posr{
+    position: relative;
+    top: 280px;
+    left: 1260px;
+}
+.posr{
+ position: relative;
+ top: 280px;
+ left: 1260px;
+}
+
+/******************************** manu section****************************/
+.menu{
+    width: 90%;
+    height: 70px;
+    background-color: #fff1eb;
+    border-radius: 8px;
+    margin-left: 5%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 24px;
+}
+.menu:hover{
+    background-color: lightpink;
+}
+/*************************************menu2******************************/
+.menu2{
+    width: 90%;
+    height: 190px;
+    margin-left: 5%;
+    margin-top: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h3{
+    text-align: center;
+}
+/*********************************flash sale****************************/
+.fsale{
+    width: 90%;
+    height: 375px;
+    margin-left: 5%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/**************************cat*********************************/
+.cat{
+    width: 90%;
+    height: 200px;
+    margin-left: 5%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/**********************************Just foy you*******************************/
+.jsale{
+    width: 90%;
+    height: 375px;
+    margin-left: 5%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/**********************************footer***********************/
+.footer{
+    display: flex;
+    width: 90%;
+    height: 375px;
+    margin-left: 4%;
+    margin-top: 50px;
+    background-color: rgba(22, 20, 20, 0.021);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    color: rgb(108, 94, 94);
+}
